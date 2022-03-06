@@ -1,8 +1,11 @@
-
+import styles from '../styles/home.module.scss'
 
 
 export default function Home() {
   return (
-   <h1>Teste</h1>
+   <h1 className={styles.title}>
+     Teste
+     <span> SCSS</span>
+     </h1>
   )
 }
